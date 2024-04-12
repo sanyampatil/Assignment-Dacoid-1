@@ -7,12 +7,7 @@ import Header from './components/Header'
 function App () {
   const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <h1>hiii sanyam patil</h1>
-      <Header />
-    </>
-  )
+  return <></>
 }
 
 export default App

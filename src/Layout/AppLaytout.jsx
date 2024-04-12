@@ -5,8 +5,10 @@ import { Outlet } from 'react-router-dom'
 const AppLaytout = () => {
   return (
     <>
-      {/* <Header /> */}
-      {/* <Outlet/> */}
+      <div className=' px-5 w-full h-[90vh]'>
+        <Header />
+        <Outlet />
+      </div>
     </>
   )
 }

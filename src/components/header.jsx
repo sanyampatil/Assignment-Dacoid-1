@@ -1,11 +1,18 @@
 import React from 'react'
+import { GiNetworkBars } from 'react-icons/gi'
+import { IoIosWifi } from 'react-icons/io'
+import { IoBatteryFull } from 'react-icons/io5'
 
 const Header = () => {
   return (
-    <div className='bg-red-200 h-[44px] flex  '>
-      <div className='time'> 9:41</div>
+    <div className=' h-[44px] flex justify-between items-center'>
+      <div className='time font-semibold'> 9:41</div>
 
-      <div className='HeadUIcons '>jduod uhd uh</div>
+      <div className='HeadUIcons  flex gap-2 text-xl'>
+        <GiNetworkBars />
+        <IoIosWifi />
+        <IoBatteryFull />
+      </div>
     </div>
   )
 }
