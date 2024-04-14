@@ -11,11 +11,17 @@ import {
 } from 'react-router-dom'
 import Getburn from './pages/landpages/Getburn.jsx'
 import AppLaytout from './Layout/AppLaytout.jsx'
+import TrackGoal from './pages/landpages/TrackGoal.jsx'
+import Signup from './pages/Signup.jsx'
+import Signin from './pages/Signin.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='' element={<AppLaytout />}>
       <Route path='' element={<Getburn />} />
+      <Route path='/getBurn' element={<TrackGoal />} />
+      <Route path='/signup' element={<Signup />} />
+      <Route path='/signin' element={<Signin />} />
     </Route>
   )
 )

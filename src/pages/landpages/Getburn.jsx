@@ -1,15 +1,20 @@
 import React from 'react'
 import run from '../../../public/run.png'
 import { MdKeyboardArrowRight } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const Getburn = () => {
   return (
     <>
       <div className='  relative h-[80vh]  border-2  border-white'>
         <div className='absolute  right-0   top-4 '>
-          <a className=' underline text-blue-400 text-lg' href='#'>
+          <Link
+            to='/getBurn'
+           className=' underline text-blue-400 text-lg'
+            href='#'
+          >
             skip
-          </a>
+          </Link>
         </div>
 
         <div className='image mt-20  '>

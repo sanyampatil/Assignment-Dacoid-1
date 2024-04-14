@@ -2,7 +2,7 @@ import React from 'react'
 import { GiNetworkBars } from 'react-icons/gi'
 import { IoIosWifi } from 'react-icons/io'
 import { IoBatteryFull } from 'react-icons/io5'
-
+  
 const Header = () => {
   return (
     <div className=' h-[44px] flex justify-between items-center'>
