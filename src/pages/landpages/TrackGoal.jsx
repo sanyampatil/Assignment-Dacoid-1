@@ -1,15 +1,16 @@
 import React from 'react'
 import cycle from '../../../public/cycle.png'
 import { MdKeyboardArrowRight } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const TrackGoal = () => {
   return (
     <>
-      <div className='  relative h-[80vh]  border-2  border-white'>
+      <div className='relative h-[80vh]  border-2  border-white'>
         <div className='absolute  right-0   top-4 '>
-          <a className=' underline text-blue-400 text-lg' href='/'>
+          <Link className=' underline text-blue-400 text-lg' href='/'>
             skip
-          </a>
+          </Link>
         </div>
 
         <div className='image  mt-28  '>

@@ -6,13 +6,9 @@ import { Link } from 'react-router-dom'
 const Getburn = () => {
   return (
     <>
-      <div className='  relative h-[80vh]  border-2  border-white'>
+      <div className='relative h-[80vh]  border-2  border-white'>
         <div className='absolute  right-0   top-4 '>
-          <Link
-            to='/getBurn'
-           className=' underline text-blue-400 text-lg'
-            href='#'
-          >
+          <Link to='/signup' className=' underline text-blue-400 text-lg'>
             skip
           </Link>
         </div>
